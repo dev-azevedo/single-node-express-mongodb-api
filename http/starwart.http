@@ -1,0 +1,33 @@
+GET http://localhost:3000/
+Content-Type: application/json
+
+###
+GET http://localhost:3000/67aa499ef7a710a39b970eca
+Content-Type: application/json
+
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+  "title": "Star Wars: A New Hope 3",
+  "description": "George Lucas 3",
+  "image_url": "https://www.imdb.com/title/tt0076759/mediaviewer/rm1024137696",
+  "trailer_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+}
+
+###
+PUT http://localhost:3000/67aa48fc8f01067a4caf79a1
+Content-Type: application/json
+
+{
+  "title": "Star Wars: A New Hope",
+  "description": "George Lucas Description",
+  "image_url": "https://www.imdb.com/title/tt0076759/mediaviewer/rm1024137696",
+  "trailer_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+}
+
+###
+DELETE http://localhost:3000/67aa48180f2b40a1e573ae7b
+Content-Type: application/json
+
