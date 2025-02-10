@@ -1,0 +1,17 @@
+{
+  "name": "starwars-api",
+  "version": "1.0.0",
+  "description": "starwars-api with express and mongodb",
+  "main": "index.js",
+  "repository": "https://github.com/dev-azevedo/single-node-express-mongodb-api.git",
+  "author": "Jhonatan Azevedo <dev.azevedo@outlook.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0"
+  }
+}
